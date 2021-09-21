@@ -2,6 +2,13 @@
 
 Devops scripts for Ubuntu 20.04 LTS (Focal Fossa)
 
+# Tools
+
+* MongoDB 5.0
+* Node 16
+* python3-{pip, venv, setuptools}
+* yq
+
 ## Newest MongoDB (5.0)
 
 The version of MongoDB included with Ubuntu 20.04 LTS is 2 major
