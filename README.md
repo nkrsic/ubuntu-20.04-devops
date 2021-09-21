@@ -27,3 +27,18 @@ complementary scripts:
 ```mongo-clean-install.sh```
 
 - This script combines both the cleaning and installation in one script.
+
+<hr></hr>
+
+## Mongo Shell Scripts (5.0)
+
+In the ```mongodb/js``` folder there are Mongo shell scripts, tested with
+the newer ```mongosh``` shell interpreter. They depend on the following environment
+files, which are again ```.js``` files declaring simple const values. The
+const values are loaded by the ```mongosh``` via the built-in ```load()```
+function.
+
+| Shell Script | Environment file | User must provide
+| -- | -- | -- |
+| create-admin-5.0.js | .env.admin.js | USER, PASSWORD |
+| create-user-5.0.js  | .env.user.js  | USER, PASSWORD, DB_NAME |
